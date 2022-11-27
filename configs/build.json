@@ -1,6 +1,4 @@
 {
   "extends": "./base.json",
-  "include": [
-    "../func-reversify/**/*.ts"
-  ]
+  "include": ["../func-reversify/**/*.ts"]
 }
