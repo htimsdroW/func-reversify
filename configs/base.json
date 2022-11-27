@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "UMD",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "../func-reversify",
+    "outDir": "../dist",
+    "noEmit": true,
+    "declaration": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "composite": true
+  },
+  "buildOptions": {
+    "incremental": true
+  }
+}
