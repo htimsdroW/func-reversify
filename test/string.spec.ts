@@ -1,4 +1,3 @@
-import mocha from 'mocha'
 import { expect } from 'chai'
 
 import { reversify } from '../func-reversify/util/strings/string'
