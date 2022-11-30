@@ -8,7 +8,6 @@
     "forceConsistentCasingInFileNames": true,
     "rootDir": "../func-reversify",
     "outDir": "../dist",
-    "noEmit": true,
     "declaration": true,
     "sourceMap": true,
     "moduleResolution": "node",
