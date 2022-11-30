@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import { reversify } from '../func-reversify/util/strings/string'
+import { reversify } from '../func-reversify/util/strings'
 
 const test = (sentence: string, expected: string): Chai.Assertion => {
   const actual = reversify(sentence)
