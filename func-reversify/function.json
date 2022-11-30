@@ -9,6 +9,13 @@
       "methods": ["post"]
     },
     {
+      "type": "table",
+      "direction": "out",
+      "name": "table",
+      "connection": "AzureWebJobsStorage",
+      "tableName": "reversifyhistory"
+    },
+    {
       "type": "http",
       "direction": "out",
       "name": "res"
