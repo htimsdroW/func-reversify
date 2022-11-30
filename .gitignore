@@ -21,6 +21,7 @@ project.lock.json
 .secrets
 appsettings.json
 local.settings.json
+__azurite_db_table__.json
 
 node_modules
 dist
