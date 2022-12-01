@@ -1,0 +1,27 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get"],
+      "route": "history/{partitionKey:int}/{take:max(20)}"
+    },
+    {
+      "type": "table",
+      "name": "table",
+      "direction": "in",
+      "connection": "AzureWebJobsStorage",
+      "tableName": "reversifyhistory",
+      "partitionKey": "{partitionKey}",
+      "take": "20"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ],
+  "scriptFile": "../dist/fn-history/index.js"
+}
