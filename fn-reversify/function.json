@@ -6,7 +6,8 @@
       "direction": "in",
       "name": "req",
       "dataType": "string",
-      "methods": ["post"]
+      "methods": ["post"],
+      "route": "reversify"
     },
     {
       "type": "table",
@@ -21,5 +22,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/index.js"
+  "scriptFile": "../dist/fn-reversify/index.js"
 }

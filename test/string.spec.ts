@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 
-import { reversify } from '../func-reversify/util/strings'
+import { reversify } from '../fn-reversify/util/strings'
 
 const test = (sentence: string, expected: string): Chai.Assertion => {
   const actual = reversify(sentence)
@@ -163,5 +163,7 @@ describe('getStringComponents', function () {
 
       test(sentence, expected)
     })
+
+    it.skip(`ask PO about words like "don't"`, function () {})
   })
 })
