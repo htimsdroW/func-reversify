@@ -7,12 +7,14 @@
 export function getTableEntry(inputString: string, outputString: string) {
   const partitionKey = getPartition()
   const rowKey = getRowKey()
+  const createdAt = String(Date.now())
 
   return {
     partitionKey,
     rowKey,
     inputString,
     outputString,
+    createdAt,
   }
 }
 
