@@ -1,7 +1,14 @@
 {
   "name": "aadehlpv-htimsdrow",
+  "contributors": [
+    {
+      "name": "Caroline W. Borg",
+      "email": "cawibo+wordsmith@gmail.com",
+      "url": "https://github.com/cawibo"
+    }
+  ],
   "version": "1.0.0",
-  "description": "",
+  "description": "Azure Function App Service backend of the Wordsmith web app.",
   "main": "index.js",
   "scripts": {
     "build": "tsc -p configs/build.json",
