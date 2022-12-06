@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -p configs/build.json",
+    "start": "func start",
+    "start-https": "npm run start -- --useHttps --defaultCert",
     "test": "TS_NODE_TRANSPILE_ONLY=true NODE_ENV=test ts-mocha --require ts-node/register -p configs/test.json **/*.spec.ts",
     "test:watch": "npm run test -- --watch --watch-files **/*.ts,**/*.spec.ts",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
